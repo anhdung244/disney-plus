@@ -13,7 +13,11 @@ jobs:
     steps:
       -name : get the source code
         uses: actions/checkout@v2
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 9316680ed188791d104d2f2eb1fbc1597e1c4192
       -name : install node
         uses: actions/setup-node@v2
         with:
